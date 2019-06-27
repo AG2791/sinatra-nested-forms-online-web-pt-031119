@@ -1,33 +1,17 @@
-# class Pirate
-#   attr_reader :name, :weight, :height
-
-#     Pirates = []
-
-# def initialize(args)
-#     @name = args[:name]
-#     @weight = args[:weight]
-#     @height = args[:height]
-#     Pirates << self
-#   end
-
-#   def self.all
-#     Pirates
-#   end
-# end
-
 class Pirate
   attr_reader :name, :weight, :height
 
-  PIRATES = []
+    Pirates = []
 
-  def initialize(args)
+def initialize(args)
     @name = args[:name]
     @weight = args[:weight]
     @height = args[:height]
-    PIRATES << self
+    Pirates << self
   end
 
   def self.all
-    PIRATES
+    Pirates
   end
 end
+
